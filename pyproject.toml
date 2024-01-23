@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "depth_anything"
+version = "0.1.0"
+description = ""
+authors = ["Lihe Yang et al. <lihe.yang.cs@gmail.com>"]
+readme = "README.md"
+packages = [{include = "depth_anything"}]
+
+[tool.poetry.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
